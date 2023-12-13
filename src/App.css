@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    /* Define the styles for the active NavLink */
+    color: rgb(252, 255, 255); /* Change the color to red (for example) */
+    /* Add any other styles as needed */
+  }
