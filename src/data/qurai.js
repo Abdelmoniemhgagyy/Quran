@@ -182,22 +182,101 @@ const Qura =[
     img:"" ,
 
   },
-  // {
-  //   id:,
-  //   name:"",
-  //   url_audio:"",
-  //   img:"" ,
+  {
+    id:27,
+    name:"أحمد الحواشي",
+    url_audio:"https://server11.mp3quran.net/hawashi/",
+    img:"" ,
 
-  // },
-  // {
-  //   id:,
-  //   name:"",
-  //   url_audio:"",
-  //   img:"" ,
+  },
+  {
+    id:28,
+    name:"أحمد صابر",
+    url_audio:"https://server8.mp3quran.net/saber",
+    img:"" ,
 
-  // },
+  },
+  {
+    id:29,
+    name:"أحمد نعينع",
+    url_audio:"https://server11.mp3quran.net/ahmad_nu",
+    img:"" ,
+
+  },
+  {
+    id:30,
+    name:"أكرم العلاقمي",
+    url_audio:"https://server9.mp3quran.net/akrm",
+    img:"" ,
+  },
+  {
+    id:31,
+    name:"الحسيني العزازي",
+    url_audio:"https://server8.mp3quran.net/3zazi",
+    img:"" ,
+  },
+  {
+    id:32,
+    name:"الزين محمد أحمد",
+    url_audio:"https://server9.mp3quran.net/alzain",
+    img:"" ,
+  },
+  {
+    id:33,
+    name:"القارئ ياسين",
+    url_audio:"https://server11.mp3quran.net/qari",
+    img:"" ,
+  },
+  {
+    id:34,
+    name:"العشري عمران",
+    url_audio:"https://server9.mp3quran.net/omran",
+    img:"" ,
+  },
+  {
+    id:35,
+    name:"العيون الكوشي",
+    url_audio:"https://server11.mp3quran.net/koshi",
+    img:"" ,
+    rewaya:"ورش"
+  },
+  {
+    id:36,
+    name:"توفيق الصايغ",
+    url_audio:"https://server6.mp3quran.net/twfeeq",
+    img:"" ,
+
+  },
+  {
+    id:37,
+    name:"جمال شاكر عبدالله",
+    url_audio:"https://server6.mp3quran.net/jamal",
+    img:"" ,
+
+  },
+  {
+    id:38,
+    name:"خالد القحطاني",
+    url_audio:"https://server10.mp3quran.net/qht",
+    img:"" ,
+
+  },
+  {
+    id:39,
+    name:"خالد عبدالكافي",
+    url_audio:"https://server11.mp3quran.net/kafi",
+    img:"" ,
+
+  },
+  {
+    id:40,
+    name:"خليفة الطنيجي",
+    url_audio:"https://server12.mp3quran.net/tnjy",
+    img:"" ,
+
+  },
   // {
-  //   id:,
+  //   id:40,
   //   name:"",
   //   url_audio:"",
   //   img:"" ,
@@ -206,3 +285,4 @@ const Qura =[
 ]
 
 export default Qura
+
