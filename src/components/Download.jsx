@@ -6,7 +6,7 @@ function Download() {
     const dataSearch = data.filter((item)=> item.name.includes(searchVal))
 
   return (
-<div className="min-h-screen bg-black text-white py-8  ">
+<div className="min-h-screen   bg-black text-white py-8  ">
             <div className="mx-auto text-center "> 
                 <h1 className="text-2xl  font-semibold">تحميل القران الكريم كامل </h1>
             </div>
@@ -20,13 +20,13 @@ function Download() {
    </div>
 {/* End Search  */}
 
- {/* download icon */}
+ {/* back icon */}
  <div className="fixed left-4 md:left-7 top-5 text-3xl ">
   <Link to="/"> 
-  <i className="bi bi-arrow-left-circle hover:text-green-300"></i>
+  <i className="bi bi-arrow-left-circle  hover:text-green-300"></i>
   </Link> 
   </div>
- {/* End download icon */}
+ {/* End back icon */}
 
 
 {/* show Data  */}
@@ -39,10 +39,10 @@ function Download() {
 
     <Link to={item.url} 
       className="p-3  block rounded-[20px] relative
-       bg-blue-500 cursor-pointer text-right hover:scale-[1.05]
-       transition duration-100">
+       bg-blue-500 cursor-pointer text-right text-sm md:text-md hover:scale-[1.05]
+       transition duration-100 ">
            {item.name}
-           <i className="bi bi-download absolute left-8  hover:text-green-300"></i>
+           <i className="bi bi-download absolute left-4  md:left-8  hover:text-green-300"></i>
        </Link>
     </div>
    )
