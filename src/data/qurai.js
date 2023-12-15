@@ -338,10 +338,87 @@ const Qura =[
     img:"" ,
 
   },
+  {
+    id:50,
+    name:"صلاح الهاشم",
+    url_audio:"https://server12.mp3quran.net/salah_hashim_m/",
+    img:"" ,
+
+  },
+  {
+    id:51,
+    name:"صلاح بو خاطر",
+    url_audio:"https://server8.mp3quran.net/bu_khtr/",
+    img:"" ,
+
+  },
+  {
+    id:52,
+    name:"عادل ريان",
+    url_audio:"https://server8.mp3quran.net/ryan/",
+    img:"" ,
+
+  },
+  {
+    id:53,
+    name:"عبدالبارئ الثبيتي",
+    url_audio:"https://server6.mp3quran.net/thubti/",
+    img:"" ,
+
+  },
+  {
+    id:54,
+    name:"عبدالبارئ محمد",
+    url_audio:"https://server12.mp3quran.net/bari/",
+    img:"" ,
+
+  },
+  {
+    id:55,
+    name:"عبدالرحمن السديس",
+    url_audio:"https://server11.mp3quran.net/sds/",
+    img:"" ,
+
+  },
+  {
+    id:56,
+    name:"عبدالعزيز الأحمد",
+    url_audio:"https://server11.mp3quran.net/a_ahmed/",
+    img:"" ,
+
+  },
+  {
+    id:57,
+    name:"عبدالعزيز الزهراني",
+    url_audio:"https://server9.mp3quran.net/zahrani/",
+    img:"" ,
+
+  },
+  {
+    id:58,
+    name:"عبدالله المطرود",
+    url_audio:"https://server8.mp3quran.net/mtrod/",
+    img:"" ,
+
+  },
+  {
+    id:59,
+    name:"عبدالله بصفر",
+    url_audio:"https://server6.mp3quran.net/bsfr/",
+    img:"" ,
+
+  },
+  {
+    id:61,
+    name:"عبدالله خياط",
+    url_audio:"https://server12.mp3quran.net/kyat/",
+    img:"" ,
+
+  },
   // {
-  //   id:48,
+  //   id:61,
   //   name:"",
-  //   url_audio:"",
+  //   url_audio:"/",
   //   img:"" ,
 
   // },
