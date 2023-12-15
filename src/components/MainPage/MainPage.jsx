@@ -11,25 +11,32 @@ const [searchVal ,setSearchVal]=useState("")
  const dataSearch = Qurai.filter((item)=> item.name.includes(searchVal))
  console.log(dataSearch)
   return (
-    <div className="pb-8  bg-black text-white text-center" >
+    <div className="min-h-screen pb-8 bg-black text-white text-center" >
+
+ {/* download icon */}
+  <div className="fixed left-4 md:left-7 top-5 text-3xl ">
+  <Link to="/download"> 
+   <i className="bi bi-download  hover:text-green-300"></i>
+  </Link> 
+  </div>
+ {/* End download icon */}
+
       <div className="mb-[10px] mx-auto pt-[30px]">
-
       <img src={Logo} alt="logo" className="rounded-full mx-auto w-[100px] h-[100px] md:w-[150px] md:h-[150px] " />
-
-
       </div>
             <div className="mx-auto"> 
                 <h1 className="text-2xl  font-semibold">القران الكريم</h1>
             </div>
+  {/* Start search  */}
    <div className="mt-4 w-[70%] md:w-[500px] mx-auto">
     
      <input type="text" onChange={(e)=> setSearchVal(e.target.value)} placeholder="بحث"
      className="p-2 px-4 w-full text-center text-lg border border-[#333] outline-none rounded-full text-black" dir="rtl"/>
   
    </div>
-          
+  {/* End Search  */}
         
-
+{/* show Data  */}
  <div className=" pt-6 px-2 mx-auto grid grid-cols-2 md:grid-cols-3
   lg:grid-cols-4  xl:grid-cols-4 gap-[10px]
    items-center" dir="rtl">
@@ -52,8 +59,11 @@ const [searchVal ,setSearchVal]=useState("")
              
             } 
             )}</div>
-    </div>
+{/* End show Data  */}
+    </div> 
   )
+  
+
 }
 
 export default MainPage
