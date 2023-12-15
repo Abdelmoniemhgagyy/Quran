@@ -2,7 +2,7 @@ import { useState } from "react"
 import GloableContext from "./GloableContext"
 
 function ContextProvider({children}) {
-    const [url,setUrl] = useState("/")
+    const [url,setUrl] = useState(localStorage.getItem("currentUrl")||"/")
 
 
   return (

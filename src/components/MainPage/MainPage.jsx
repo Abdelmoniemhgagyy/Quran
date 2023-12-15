@@ -6,7 +6,7 @@ import { useContext } from "react"
 import GloableContext from "../../store/GloableContext"
 function MainPage() {
   
-const { url, setUrl } = useContext(GloableContext);
+const { setUrl } = useContext(GloableContext);
 const [searchVal ,setSearchVal]=useState("")
  const dataSearch = Qurai.filter((item)=> item.name.includes(searchVal))
  console.log(dataSearch)
@@ -27,12 +27,15 @@ const [searchVal ,setSearchVal]=useState("")
           
         
 
- <div className="container pt-6 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  xl:grid-cols-4 gap-[10px] items-center" dir="rtl">{dataSearch.map((item)=>{
+ <div className=" pt-6 px-2 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  xl:grid-cols-4 gap-[10px] items-center" dir="rtl">{dataSearch.map((item)=>{
    return(
     <div key={item.id} className="max-w-[307px] "> 
-    <Link to="/quran" onClick={()=> setUrl(item.url_audio)} className="p-7 text-sm md:text-lg block rounded-[20px] bg-gray-700 cursor-pointer text-center">
+    <Link to="/quran" onClick={()=> {
+      localStorage.setItem("currentUrl",item.url_audio)
+      setUrl(localStorage.getItem("currentUrl"))}} 
+      
+      className="p-5 text-sm md:text-md block rounded-[20px] bg-[#4a69ff] cursor-pointer text-center hover:scale-[1.05] transition duration-100">
       {item.name}</Link>
-
     </div>
    )
              

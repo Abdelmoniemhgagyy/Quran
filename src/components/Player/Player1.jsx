@@ -1,4 +1,4 @@
-import  { useState } from 'react'
+import  { useEffect, useState } from 'react'
 import AudioPlayer from 'react-h5-audio-player';
 import namesOfsura from "../../data/quran"
 import 'react-h5-audio-player/lib/styles.css';
@@ -8,13 +8,20 @@ import GloableContext from '../../store/GloableContext';
 function Player1() {
   const [num, setNum]= useState(1);
     const {url,setUrl} = useContext(GloableContext)
-    const [y,sety] = useState(0)
+    const [id,setId] = useState(0)
 
 // السور من 1-9 بضفلهم 00 y
 // السور من 10-99 بضفلهم 0 y 
- const urlAduio = y<10 ? `${url}00${num}.mp3`:y<100?`${url}0${num}.mp3`:`${url}${num}.mp3`
- const[mainColor,setMainColor]=useState("#333")
 
+ const urlAduio = id < 10 ? `${url}00${num}.mp3`: id < 100 ? `${url}0${num}.mp3`:`${url}${num}.mp3`
+ const[mainColor,setMainColor]=useState("#333")
+ useEffect(()=>{
+  window.scroll({
+    top:0,
+    behavior:"smooth"
+  })
+ },[])
+//  console.log(urlAduio )
   return (
 <div className='mt-2 mb-[100px] '>
 {/* namesOfsura */}
@@ -22,7 +29,7 @@ function Player1() {
       <div className='rounded-[10px]' 
            style={{backgroundColor:mainColor}} 
            onClick={()=>{setNum(`${item.id}`)
-           sety(item.id)}} key={index}> 
+           setId(item.id)}} key={index}> 
               <p className='text-center text-white p-2 border-bottom cursor-pointer m-1  '>{item.name}</p>
       </div>
       ))}

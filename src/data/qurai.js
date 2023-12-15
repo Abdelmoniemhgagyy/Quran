@@ -192,91 +192,154 @@ const Qura =[
   {
     id:28,
     name:"أحمد صابر",
-    url_audio:"https://server8.mp3quran.net/saber",
+    url_audio:"https://server8.mp3quran.net/saber/",
     img:"" ,
 
   },
   {
     id:29,
     name:"أحمد نعينع",
-    url_audio:"https://server11.mp3quran.net/ahmad_nu",
+    url_audio:"https://server11.mp3quran.net/ahmad_nu/",
     img:"" ,
 
   },
   {
     id:30,
     name:"أكرم العلاقمي",
-    url_audio:"https://server9.mp3quran.net/akrm",
+    url_audio:"https://server9.mp3quran.net/akrm/",
     img:"" ,
   },
   {
     id:31,
     name:"الحسيني العزازي",
-    url_audio:"https://server8.mp3quran.net/3zazi",
+    url_audio:"https://server8.mp3quran.net/3zazi/",
     img:"" ,
   },
   {
     id:32,
     name:"الزين محمد أحمد",
-    url_audio:"https://server9.mp3quran.net/alzain",
+    url_audio:"https://server9.mp3quran.net/alzain/",
     img:"" ,
   },
   {
     id:33,
     name:"القارئ ياسين",
-    url_audio:"https://server11.mp3quran.net/qari",
+    url_audio:"https://server11.mp3quran.net/qari/",
     img:"" ,
   },
   {
     id:34,
     name:"العشري عمران",
-    url_audio:"https://server9.mp3quran.net/omran",
+    url_audio:"https://server9.mp3quran.net/omran/",
     img:"" ,
   },
   {
     id:35,
     name:"العيون الكوشي",
-    url_audio:"https://server11.mp3quran.net/koshi",
+    url_audio:"https://server11.mp3quran.net/koshi/",
     img:"" ,
     rewaya:"ورش"
   },
   {
     id:36,
     name:"توفيق الصايغ",
-    url_audio:"https://server6.mp3quran.net/twfeeq",
+    url_audio:"https://server6.mp3quran.net/twfeeq/",
     img:"" ,
 
   },
   {
     id:37,
     name:"جمال شاكر عبدالله",
-    url_audio:"https://server6.mp3quran.net/jamal",
+    url_audio:"https://server6.mp3quran.net/jamal/",
     img:"" ,
 
   },
   {
     id:38,
     name:"خالد القحطاني",
-    url_audio:"https://server10.mp3quran.net/qht",
+    url_audio:"https://server10.mp3quran.net/qht/",
     img:"" ,
 
   },
   {
     id:39,
     name:"خالد عبدالكافي",
-    url_audio:"https://server11.mp3quran.net/kafi",
+    url_audio:"https://server11.mp3quran.net/kafi/",
     img:"" ,
 
   },
   {
     id:40,
     name:"خليفة الطنيجي",
-    url_audio:"https://server12.mp3quran.net/tnjy",
+    url_audio:"https://server12.mp3quran.net/tnjy/",
+    img:"" ,
+
+  },
+  {
+    id:41,
+    name:"سعد الغامدي",
+    url_audio:"https://server7.mp3quran.net/s_gmd/",
+    img:"" ,
+
+  },
+  {
+    id:42,
+    name:"سعود الشريم",
+    url_audio:"https://server7.mp3quran.net/shur/",
+    img:"" ,
+
+  },
+  {
+    id:43,
+    name:"سهل ياسين",
+    url_audio:"https://server6.mp3quran.net/shl/",
+    img:"" ,
+
+  },
+  {
+    id:44,
+    name:"زكي داغستاني",
+    url_audio:"https://server9.mp3quran.net/zaki/",
+    img:"" ,
+
+  },
+  {
+    id:45,
+    name:"سامي الحسن",
+    url_audio:"https://server12.mp3quran.net/sayed/",
+    img:"" ,
+
+  },
+  {
+    id:46,
+    name:"شيرزاد عبدالرحمن طاهر",
+    url_audio:"https://server12.mp3quran.net/taher/",
+    img:"" ,
+
+  },
+  {
+    id:47,
+    name:"صابر عبدالحكم",
+    url_audio:"https://server12.mp3quran.net/hkm/",
+    img:"" ,
+
+  },
+  {
+    id:48,
+    name:"صالح الهبدان",
+    url_audio:"https://server6.mp3quran.net/habdan/",
+    img:"" ,
+
+  },
+  {
+    id:49,
+    name:"صالح البدير ",
+    url_audio:"https://server6.mp3quran.net/s_bud/",
     img:"" ,
 
   },
   // {
-  //   id:40,
+  //   id:48,
   //   name:"",
   //   url_audio:"",
   //   img:"" ,
