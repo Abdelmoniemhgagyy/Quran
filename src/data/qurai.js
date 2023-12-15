@@ -541,7 +541,135 @@ const Qura =[
     name: "محمد الطبلاوي",
     url_audio: "https://server12.mp3quran.net/tblawi/",
     img: "",
-}
+},
+{
+    id: 80,
+    name: "أيمن السويد",
+    url_audio: "https://download.tvquran.com/download/recitations/346/270/",
+    img: "",
+},
+  {
+      id: 81,
+      name: "محمود علي البنا",
+      url_audio: "https://server8.mp3quran.net/bna/",
+      img: "",
+  },
+  {
+      id: 82,
+      name: "محمد جبريل",
+      url_audio: "https://server8.mp3quran.net/jbrl/",
+      img: "",
+  },
+  // {
+  //     id: 83,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 84,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 85,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 86,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 87,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 88,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 89,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 90,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 91,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 92,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 93,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 94,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 95,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 96,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 97,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 98,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 99,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // },
+  // {
+  //     id: 100,
+  //     name: "",
+  //     url_audio: "/",
+  //     img: "",
+  // }
+
+
 ]
 
 export default Qura
