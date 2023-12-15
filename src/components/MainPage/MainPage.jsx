@@ -13,13 +13,7 @@ const [searchVal ,setSearchVal]=useState("")
   return (
     <div className="min-h-screen pb-8 bg-black text-white text-center" >
 
- {/* download icon */}
-  <div className="fixed left-4 md:left-7 top-5 text-3xl ">
-  <Link to="/download"> 
-   <i className="bi bi-download  hover:text-green-300"></i>
-  </Link> 
-  </div>
- {/* End download icon */}
+
 
       <div className="mb-[10px] mx-auto pt-[30px]">
       <img src={Logo} alt="logo" className="rounded-full mx-auto w-[100px] h-[100px] md:w-[150px] md:h-[150px] " />
@@ -35,7 +29,15 @@ const [searchVal ,setSearchVal]=useState("")
   
    </div>
   {/* End Search  */}
-        
+
+   {/* download icon */}
+    <div className="mt-3 w-[70%] md:w-[500px] mx-auto text-[12px] md:text-[18px]  bg-blue-400 rounded-full p-3 hover:scale-[1.05]">
+      <Link to="/download"> 
+         <i className="bi bi-download  hover:text-green-300"></i>
+         <span className=" mx-2"> تحميل القران</span>
+      </Link> 
+    </div>
+ {/* End download icon */}
 {/* show Data  */}
  <div className=" pt-6 px-2 mx-auto grid grid-cols-2 md:grid-cols-3
   lg:grid-cols-4  xl:grid-cols-4 gap-[10px]
