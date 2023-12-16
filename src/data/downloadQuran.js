@@ -4,7 +4,7 @@ const data = [
     { id: 3, name: "ياسر الدوسري", url: "https://download.tvquran.com/download/recitations/archives/9-mp3.zip" },
     { id: 4, name: "فارس عباد", url: "https://download.tvquran.com/download/recitations/archives/29-mp3.zip" },
     { id: 5, name: "ناصر القطامي", url: "https://download.tvquran.com/download/recitations/archives/25-mp3.zip" },
-    { id: 6, name: "محمد رفعت", url: "https://download.tvquran.com/download/recitations/archives/221-mp3.zip" },
+    // { id: 6, name: "محمد رفعت", url: "https://download.tvquran.com/download/recitations/archives/221-mp3.zip" },
     { id: 7, name: "ماهر المعيقلي", url: "https://download.tvquran.com/download/recitations/archives/82-mp3.zip" },
     { id: 8, name: "بندر بليله", url: "https://download.tvquran.com/download/recitations/archives/173-mp3.zip" },
     { id: 9, name: "خالد الجليل", url: "https://download.tvquran.com/download/recitations/archives/252-mp3.zip" },
