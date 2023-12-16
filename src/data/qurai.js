@@ -9,7 +9,7 @@ const Qura =[
   {
     id:2,
     name:" محمد صديق المنشاوي",
-    url_audio:"https://download.tvquran.com/download/TvQuran.com__Al-Minshawi-Mojawad/",
+    url_audio:"https://server10.mp3quran.net/minsh/minh-old-with-echo/",
     img:"" ,
 
   },
@@ -506,7 +506,7 @@ const Qura =[
 },
 {
     id: 75,
-    name: "عمر القزابري",
+    name: "عمر القزابري (ورش)",
     url_audio: "https://server9.mp3quran.net/omar_warsh/",
     img: "",
     rewaya:"ورش عن نافع"
@@ -523,25 +523,19 @@ const Qura =[
     url_audio: "https://server8.mp3quran.net/namh/",
     img: "",
 },
-// {
-//     id: 78,
-//     name: "وليد النائحي",
-//     url_audio: "https://server9.mp3quran.net/waleed/",
-//     img: "",
-//     rewaya:"قالون عن نافع من طريق أبي نشيط"
-// },
+{
+  id: 78,
+  name: "محمد الطبلاوي",
+  url_audio: "https://server12.mp3quran.net/tblawi/",
+  img: "",
+},
 {
     id: 79,
     name: "يوسف الشويعي",
     url_audio: "https://server9.mp3quran.net/yousef/",
     img: "",
 },
-{
-    id: 80,
-    name: "محمد الطبلاوي",
-    url_audio: "https://server12.mp3quran.net/tblawi/",
-    img: "",
-},
+
 {
     id: 80,
     name: "أيمن السويد",
@@ -560,115 +554,140 @@ const Qura =[
       url_audio: "https://server8.mp3quran.net/jbrl/",
       img: "",
   },
-  // {
-  //     id: 83,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 84,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 85,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 86,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 87,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 88,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
+  {
+      id: 83,
+      name: "هتلان بن علي الهتلان",
+      url_audio: "https://ia800707.us.archive.org/26/items/Al-Quran_riwayat_Hafs_tilawat_Hatlan_Alhatlan/",
+      img: "",
+  },
+  {
+      id: 84,
+      name: " الشيخ ابراهيم سليم الدرملي",
+      url_audio: "https://ia800401.us.archive.org/4/items/Al-Quran_Hafs_tilawat_Ibrahim_Adderemli/",
+      img: "",
+  },
+  {
+      id: 85,
+      name: "محمد اللحيدان",
+      url_audio: "https://server8.mp3quran.net/lhdan/",
+      img: "",
+  },
+  {
+      id: 86,
+      name: "محمد صالح عالم",
+      url_audio: "https://server12.mp3quran.net/shah/",
+      img: "",
+  },
+  {
+      id: 87,
+      name: "محمد صديق المنشاوي (مجود)",
+      url_audio: "https://download.tvquran.com/download/TvQuran.com__Al-Minshawi-Mojawad/",
+      img: "",
+  },
+  {
+      id: 88,
+      name: "محمد عبدالكريم",
+      url_audio: "https://server12.mp3quran.net/m_krm/",
+      img: "",
+  },
   // {
   //     id: 89,
-  //     name: "",
-  //     url_audio: "/",
+  //     name:"محمد عبدالحكيم العبدالله",
+  //     url_audio: "https://server9.mp3quran.net/abdullah/",
   //     img: "",
+  //     rewaya:"البزي وقنبل عن ابن كثير",
   // },
   // {
   //     id: 90,
-  //     name: "",
-  //     url_audio: "/",
+  //     name:"محمد عبدالحكيم العبدالله",
+  //     url_audio: "https://server9.mp3quran.net/abdullah/Rewayat-AlDorai-A-n-Al-Kisa-ai/",
   //     img: "",
+  //     rewaya:"الدوري عن الكسائي",
   // },
-  // {
-  //     id: 91,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 92,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 93,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 94,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 95,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 96,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 97,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 98,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 99,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // },
-  // {
-  //     id: 100,
-  //     name: "",
-  //     url_audio: "/",
-  //     img: "",
-  // }
+  {
+      id: 91,
+      name: " محمود خليل الحصري (مجود)",
+      url_audio: "https://server13.mp3quran.net/husr/Almusshaf-Al-Mojawwad/",
+      img: "",
+  },
+  {
+      id: 92,
+      name: " محمود خليل الحصري (ورش)",
+      url_audio: "https://server13.mp3quran.net/husr/Rewayat-Warsh-A-n-Nafi/",
+      img: "",
+      rewaya:"ورش عن نافع"
+  },
 
+  {
+      id: 93,
+      name: "محمود علي البنا (مجود)",
+      url_audio: "https://server8.mp3quran.net/bna/Almusshaf-Al-Mojawwad//",
+      img: "",
+  },
+  {
+      id: 94,
+      name:"مشاري العفاسي",
+      url_audio: "https://server8.mp3quran.net/afs/",
+      img: "",
+  },
+  {
+      id: 95,
+      name: "مصطفى إسماعيل",
+      url_audio: "https://server8.mp3quran.net/mustafa/",
+      img: "",
+  },
+  {
+      id: 96,
+      name:"مصطفى اللاهوني",
+      url_audio: "https://server6.mp3quran.net/lahoni/",
+      img: "",
+  },
+  {
+      id: 97,
+      name:"مصطفى رعد العزاوي",
+      url_audio: "https://server8.mp3quran.net/ra3ad/",
+      img: "",
+  },
+  {
+      id: 98,
+      name:"مفتاح السلطني",
+      url_audio: "https://server14.mp3quran.net/muftah_sultany/Rewayat-Aldori-A-n-Abi-Amr/",
+      img: "",
+      rewaya:"الدوري عن أبي عمرو"
+  },
+  {
+      id: 99,
+      name: "ماهر المعيقلي (مجود)", 
+      url_audio: "https://server12.mp3quran.net/maher/Almusshaf-Al-Mojawwad/",
+      img: "",
+  },
+  {
+      id: 100,
+      name:"محمد سايد (ورش)",
+      url_audio: "https://server16.mp3quran.net/m_sayed/Rewayat-Warsh-A-n-Nafi/",
+      img: "",
+  },
+  {
+    id:101,
+    name:"عبدالرحمن السويّد",
+    url_audio:"https://server16.mp3quran.net/a_swaiyd/Rewayat-Hafs-A-n-Assem/",
+    img:"",
+    rewaya:""
+  },
+// {
+//     id: 102,
+//     name: "وليد النائحي",
+//     url_audio: "https://server9.mp3quran.net/waleed/",
+//     img: "",
+//     rewaya:"قالون عن نافع من طريق أبي نشيط"
+// },
+  // {
+  //   id:103,
+  //   name:"",
+  //   url_audio:"/",
+  //   img:"",
+  //   rewaya:""
+  // },
 
 ]
 

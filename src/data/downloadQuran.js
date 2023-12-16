@@ -19,7 +19,19 @@ const data = [
     { id: 18, name: "هاني الرفاعي", url: "https://download.tvquran.com/download/recitations/archives/30-mp3.zip" },
     { id: 19, name: "الحصري", url: "https://ia600405.us.archive.org/16/items/TvQuran.com__Al-HussaryZip/TvQuran.com__Al-Hussary.zip" },
     { id: 20, name: "المعصراوي", url: "https://archive.org/compress/rabieaaa2019_yahoo_0022435724357_201505/formats=VBR%20MP3&file=/rabieaaa2019_yahoo_0022435724357_201505.zip" },
-    { id: 21, name: "عبدالرشيد صوفي", url: "https://download.tvquran.com/download/recitations/archives/167-mp3.zip" }
+    { id: 21, name: "عبدالرشيد صوفي", url: "https://download.tvquran.com/download/recitations/archives/167-mp3.zip" },
+    { id: 22, name: "هتلان بن علي الهتلان", url: "https://archive.org/compress/Al-Quran_riwayat_Hafs_tilawat_Hatlan_Alhatlan/formats=VBR%20MP3&file=/Al-Quran_riwayat_Hafs_tilawat_Hatlan_Alhatlan.zip" },
+    { id: 23, name: " الشيخ ابراهيم سليم الدرملي", url: "https://archive.org/compress/Al-Quran_Hafs_tilawat_Ibrahim_Adderemli/formats=VBR%20MP3&file=/Al-Quran_Hafs_tilawat_Ibrahim_Adderemli.zip" },
+    { id: 24, name: "", url: "" },
+    { id: 25, name: "", url: "" },
+    { id: 26, name: "", url: "" },
+    { id: 27, name: "", url: "" },
+    { id: 28, name: "", url: "" },
+    { id: 29, name: "", url: "" },
+    { id: 30, name: "", url: "" },
+     
+
+
 ];
 
 export default data 
