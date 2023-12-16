@@ -6,10 +6,12 @@ import "./styles.css"
 import { useContext } from 'react';
 import GloableContext from '../../store/GloableContext';
 function Player1() {
-  const [num, setNum]= useState(1);
-    const {url,setUrl} = useContext(GloableContext)
+    const [num, setNum]= useState(1);
+    const {url,nameOfQarui} = useContext(GloableContext)
     const [id,setId] = useState(0)
-
+    const[nameOfSura,setNameOfSura] =useState("الفاتحة")
+     
+    console.log(nameOfQarui)
 // السور من 1-9 بضفلهم 00 y
 // السور من 10-99 بضفلهم 0 y 
 
@@ -24,14 +26,32 @@ function Player1() {
 //  console.log(urlAduio )
   return (
 <div className='mt-2 mb-[100px] '>
+
+{/* name Of Quari  */}
+              <nav className='   min-w-screen '>
+                <div className=' bg-blue-900 text-white p-2 rounded text-2xl '>
+                <div  title="home" className='   text-center transition duration-150 '  >
+                    <p className="text-sm p-1"> الشيخ : {localStorage.getItem("nameOfQauri")}</p>
+                    <p className="text-sm p-1"> سورة : {nameOfSura} </p>
+                </div> 
+                </div>
+      </nav>
+{/* End name Of Quari  */}
+
 {/* namesOfsura */}
       {namesOfsura.map((item,index)=>(
       <div className='rounded-[10px]' 
            style={{backgroundColor:mainColor}} 
            onClick={()=>{setNum(`${item.id}`)
-           setId(item.id)}} key={index}> 
+                         setId(item.id)
+                         setNameOfSura(`${item.name}`)
+           
+           
+           }} key={index}> 
               <p className='text-center text-white p-2 border-bottom cursor-pointer m-1  '>{item.name}</p>
       </div>
+
+      
       ))}
        {/* audio bar  */}
       <div className='fixed bottom-0 left-0 w-screen'>
@@ -43,6 +63,9 @@ function Player1() {
               onPlay={e => console.log("onPlay")}
             />
         </div>
+
+
+
 
 {/* change background color  */}
       <nav className='fixed bottom-[95px] left-1  md:left-4'>

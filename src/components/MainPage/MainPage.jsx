@@ -6,10 +6,19 @@ import { useContext } from "react"
 import GloableContext from "../../store/GloableContext"
 function MainPage() {
   
+  const {setNameOfQarui} =useContext(GloableContext)
 const { setUrl } = useContext(GloableContext);
 const [searchVal ,setSearchVal]=useState("")
- const dataSearch = Qurai.filter((item)=> item.name.includes(searchVal))
- console.log(dataSearch)
+const dataSearch = Qurai.filter((item)=> item.name.includes(searchVal))
+
+ const handelLinkQuari = (itemurl,name) => {
+    localStorage.setItem("currentUrl",itemurl)
+    setUrl(localStorage.getItem("currentUrl"),
+    localStorage.setItem("nameOfQauri",name),
+    setNameOfQarui(localStorage.getItem("nameOfQauri"))
+    )
+  }
+ 
   return (
     <div className="min-h-screen pb-8 bg-black text-white text-center" >
 
@@ -46,9 +55,8 @@ const [searchVal ,setSearchVal]=useState("")
    return(
     <div key={item.id} className="max-w-[307px] "> 
 
-    <Link to="/quran" onClick={()=> {
-      localStorage.setItem("currentUrl",item.url_audio)
-      setUrl(localStorage.getItem("currentUrl"))}} 
+    <Link to="/quran" onClick={()=> handelLinkQuari(item.url_audio,item.name)} 
+    
       className="p-5 text-sm md:text-md block rounded-[20px]
        bg-[#4a69ff] cursor-pointer text-center hover:scale-[1.05]
        transition duration-100">
