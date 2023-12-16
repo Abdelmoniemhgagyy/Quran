@@ -4,6 +4,8 @@ import Qurai from "../../data/qurai"
 import { useState } from "react"
 import { useContext } from "react"
 import GloableContext from "../../store/GloableContext"
+import ScrollToTop from "../ScroolToTop/ScroolToTop"
+
 function MainPage() {
   
   const {setNameOfQarui} =useContext(GloableContext)
@@ -22,6 +24,7 @@ const dataSearch = Qurai.filter((item)=> item.name.includes(searchVal))
   return (
     <div className="min-h-screen pb-8 bg-black text-white text-center" >
 
+< ScrollToTop bottom="5px" />
 
 
       <div className="mb-[10px] mx-auto pt-[30px]">
@@ -56,7 +59,7 @@ const dataSearch = Qurai.filter((item)=> item.name.includes(searchVal))
     <div key={item.id} className="max-w-[307px] "> 
 
     <Link to="/quran" onClick={()=> handelLinkQuari(item.url_audio,item.name)} 
-    
+
       className="p-5 text-sm md:text-md block rounded-[20px]
        bg-[#4a69ff] cursor-pointer text-center hover:scale-[1.05]
        transition duration-100">

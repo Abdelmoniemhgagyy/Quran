@@ -63,13 +63,13 @@ const Qura =[
     img:"" ,
 
   },
-  {
-    id:10,
-    name:"محمد رفعت ",
-    url_audio:"https://download.tvquran.com/download/recitations/314/221/",
-    img:"" ,
+  // {
+  //   id:10,
+  //   name:"محمد رفعت ",
+  //   url_audio:"https://download.tvquran.com/download/recitations/314/221/",
+  //   img:"" ,
 
-  },
+  // },
   {
     id:11,
     name:"ماهر المعيقلي",

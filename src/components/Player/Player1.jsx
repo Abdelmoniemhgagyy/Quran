@@ -4,7 +4,9 @@ import namesOfsura from "../../data/quran"
 import 'react-h5-audio-player/lib/styles.css';
 import "./styles.css"
 import { useContext } from 'react';
+import ScrollToTop from "../ScroolToTop/ScroolToTop"
 import GloableContext from '../../store/GloableContext';
+
 function Player1() {
 
     const [num, setNum]= useState(1);
@@ -69,7 +71,7 @@ window.scroll({
         </div>
        {/* End audio bar  */}
  
-
+       < ScrollToTop bottom={"95px"} />
 
 
      {/* change background color  */}

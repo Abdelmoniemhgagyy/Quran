@@ -1,6 +1,6 @@
-import { useEffect,useState } from "react";
+import { useEffect , useState } from "react";
 
-function ScroolToTop() {
+function ScroolToTop({bottom}) {
   const [appear ,setAppear] =useState(false)
  
   useEffect(() => {
@@ -29,8 +29,8 @@ const scrollToTop =()=>{
     setAppear("false")
   }
   return (
- <div onClick={()=> scrollToTop()} style={{transform:`translateX(${appear ? "0px" : "150%"} )`}} className='fixed bottom-[5px]
-    right-1  md:right-3 bg-[#16408b] rounded-full p-2 transition duration-500 '>
+ <div onClick={()=> scrollToTop()} style={{transform:`translateX(${appear ? "0px" : "150%"} )`,bottom:bottom}} className='fixed bottom-[5px]
+    right-1  md:right-2 bg-[#16408b] rounded-full p-2 transition duration-500 '>
     <i className="bi bi-arrow-up cursor-pointer text-xl text-white "></i>
 </div>
 
