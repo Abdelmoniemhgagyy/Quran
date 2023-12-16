@@ -667,13 +667,7 @@ const Qura =[
       url_audio: "https://server16.mp3quran.net/m_sayed/Rewayat-Warsh-A-n-Nafi/",
       img: "",
   },
-  {
-    id:101,
-    name:"عبدالرحمن السويّد",
-    url_audio:"https://server16.mp3quran.net/a_swaiyd/Rewayat-Hafs-A-n-Assem/",
-    img:"",
-    rewaya:""
-  },
+
 // {
 //     id: 102,
 //     name: "وليد النائحي",
