@@ -871,8 +871,15 @@ const Qura =[
     img: "",
     rewaya:"حفص عن عاصم"
   },
+  {
+    id: 131,
+    name: "أحمد عيسى المعصراوي",
+    url_audio: "https://server16.mp3quran.net/a_maasaraawi/Rewayat-Hafs-A-n-Assem//",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
   // {
-  //   id: 131,
+  //   id: 132,
   //   name: "",
   //   url_audio: "/",
   //   img: "",
