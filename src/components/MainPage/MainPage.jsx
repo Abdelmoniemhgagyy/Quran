@@ -8,11 +8,13 @@ import ScrollToTop from "../ScroolToTop/ScroolToTop"
 
 function MainPage() {
   
-  const {setNameOfQarui} =useContext(GloableContext)
+const {setNameOfQarui} =useContext(GloableContext)
 const { setUrl } = useContext(GloableContext);
 const [searchVal ,setSearchVal]=useState("")
 const dataSearch = Qurai.filter((item)=> item.name.includes(searchVal))
 
+
+// set url of quri and name of quri
  const handelLinkQuari = (itemurl,name) => {
     localStorage.setItem("currentUrl",itemurl)
     setUrl(localStorage.getItem("currentUrl"),

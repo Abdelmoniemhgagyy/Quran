@@ -562,7 +562,7 @@ const Qura =[
   },
   {
       id: 84,
-      name: " الشيخ ابراهيم سليم الدرملي",
+      name: "  ابراهيم سليم الدرملي",
       url_audio: "https://ia800401.us.archive.org/4/items/Al-Quran_Hafs_tilawat_Ibrahim_Adderemli/",
       img: "",
   },
@@ -577,19 +577,20 @@ const Qura =[
       name: "محمد صالح عالم",
       url_audio: "https://server12.mp3quran.net/shah/",
       img: "",
-  },
+    },
+    {
+        id: 88,
+        name: "محمد عبدالكريم",
+        url_audio: "https://server12.mp3quran.net/m_krm/",
+        img: "",
+    },
   {
       id: 87,
       name: "محمد صديق المنشاوي (مجود)",
       url_audio: "https://download.tvquran.com/download/TvQuran.com__Al-Minshawi-Mojawad/",
       img: "",
   },
-  {
-      id: 88,
-      name: "محمد عبدالكريم",
-      url_audio: "https://server12.mp3quran.net/m_krm/",
-      img: "",
-  },
+  
   // {
   //     id: 89,
   //     name:"محمد عبدالحكيم العبدالله",
@@ -873,7 +874,7 @@ const Qura =[
   },
   {
     id: 131,
-    name: "أحمد عيسى المعصراوي",
+    name: "احمد عيسى المعصراوي",
     url_audio: "https://server16.mp3quran.net/a_maasaraawi/Rewayat-Hafs-A-n-Assem//",
     img: "",
     rewaya:"حفص عن عاصم"
