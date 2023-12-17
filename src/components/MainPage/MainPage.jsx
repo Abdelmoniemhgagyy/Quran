@@ -43,12 +43,12 @@ const dataSearch = Qurai.filter((item)=> item.name.includes(searchVal))
   {/* End Search  */}
 
    {/* download icon */}
-    <div className="mt-3 w-[70%] md:w-[500px] mx-auto text-[12px] md:text-[18px]  bg-blue-400 rounded-full p-3 hover:scale-[1.05]">
-      <Link to="/download"> 
+    <Link to="/download" className="block mt-3 w-[70%] md:w-[500px] mx-auto text-[12px] md:text-[18px]  bg-blue-400 rounded-full p-3 hover:scale-[1.05]">
+      <div > 
          <i className="bi bi-download  hover:text-green-300"></i>
          <span className=" mx-2"> تحميل القران</span>
-      </Link> 
-    </div>
+      </div> 
+    </Link>
  {/* End download icon */}
 {/* show Data  */}
  <div className=" pt-6 px-2 mx-auto grid grid-cols-2 md:grid-cols-3
