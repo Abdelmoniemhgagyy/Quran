@@ -19,19 +19,31 @@
 # RewriteCond %{REQUEST_FILENAME} !-f
 # RewriteRule ^ build/index.html [QSA,L]
 
-<Directory /var/private/test-site/dream-list/build/>
-Options FollowSymLinks MultiViews
-AllowOverride None
-Order allow,deny
-allow from all
+# <Directory /var/private/test-site/dream-list/build/>
+# Options FollowSymLinks MultiViews
+# AllowOverride None
+# Order allow,deny
+# allow from all
 
-# ADDING FOLLOWING LINES SOLVED THE PROBLEM
-RewriteEngine on
-# Don't rewrite files or directories
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^ - [L]
-# Rewrite everything else to index.html to allow html5 state links
-RewriteRule ^ index.html [L]
+# # ADDING FOLLOWING LINES SOLVED THE PROBLEM
+# RewriteEngine on
+# # Don't rewrite files or directories
+# RewriteCond %{REQUEST_FILENAME} -f [OR]
+# RewriteCond %{REQUEST_FILENAME} -d
+# RewriteRule ^ - [L]
+# # Rewrite everything else to index.html to allow html5 state links
+# RewriteRule ^ index.html [L]
 
-</Directory>
+# </Directory>
+
+<IfModule mod_rewrite.c>
+
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule . /index.html [L]
+
+</IfModule>
