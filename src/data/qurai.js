@@ -656,20 +656,20 @@ const Qura =[
       rewaya:" "
   },
   
-  // {
-  //     id: 89,
-  //     name:"محمد عبدالحكيم العبدالله",
-  //     url_audio: "https://server9.mp3quran.net/abdullah/",
-  //     img: "",
-  //     rewaya:"البزي وقنبل عن ابن كثير",
-  // },
-  // {
-  //     id: 90,
-  //     name:"محمد عبدالحكيم العبدالله",
-  //     url_audio: "https://server9.mp3quran.net/abdullah/Rewayat-AlDorai-A-n-Al-Kisa-ai/",
-  //     img: "",
-  //     rewaya:"الدوري عن الكسائي",
-  // },
+  {
+      id: 89,
+      name:"محمد عبدالحكيم (ابن كثير)",
+      url_audio: "https://server9.mp3quran.net/abdullah/",
+      img: "",
+      rewaya:"البزي وقنبل عن ابن كثير",
+  },
+  {
+      id: 90,
+      name:"محمد عبدالحكيم العبدالله",
+      url_audio: "https://server9.mp3quran.net/abdullah/Rewayat-AlDorai-A-n-Al-Kisa-ai/",
+      img: "",
+      rewaya:"الدوري عن الكسائي",
+  },
   {
       id: 91,
       name: " محمود خليل الحصري (مجود)",
@@ -833,20 +833,20 @@ const Qura =[
     img: "",
     rewaya:"حفص عن عاصم"
   },
-  // {
-  //   id: 115,
-  //   name:"إبراهيم الدوسري",
-  //   url_audio: "https://server10.mp3quran.net/ibrahim_dosri/Rewayat-Warsh-A-n-Nafi/",
-  //   img: "",
-  //   rewaya:"ورش عن نافع"
-  // },
-  // {
-  //   id: 116,
-  //   name:"مفتاح السلطني",
-  //   url_audio: "https://server14.mp3quran.net/muftah_sultany/Rewayat-AlDorai-A-n-Al-Kisa-ai/",
-  //   img: "",
-  //   rewaya:"الدوري عن الكسائي"
-  // },
+  {
+    id: 115,
+    name:"إبراهيم الدوسري",
+    url_audio: "https://server10.mp3quran.net/ibrahim_dosri/Rewayat-Warsh-A-n-Nafi/",
+    img: "",
+    rewaya:"ورش عن نافع"
+  },
+  {
+    id: 116,
+    name:"مفتاح السلطني (الكسائي)",
+    url_audio: "https://server14.mp3quran.net/muftah_sultany/Rewayat-AlDorai-A-n-Al-Kisa-ai/",
+    img: "",
+    rewaya:"الدوري عن الكسائي"
+  },
   {
     id: 117,
     name:"جمعان العصيمي",
@@ -861,20 +861,20 @@ const Qura =[
     img: "",
     rewaya:"حفص عن عاصم"
   },
-  // {
-  //   id: 119,
-  //   name:"مفتاح السلطني",
-  //   url_audio: "https://server14.mp3quran.net/muftah_sultany/Rewayat_Sho-bah-A-n-Asim/",
-  //   img: "",
-  //   rewaya:"شعبة  عن عاصم"
-  // },
-  // {
-  //   id: 120,
-  //   name:"مفتاح السلطني",
-  //   url_audio: "https://server14.mp3quran.net/muftah_sultany/Rewayat_Ibn-Thakwan-A-n-Ibn-Amer/",
-  //   img: "",
-  //   rewaya:"ابن ذكوان عن ابن عامر"
-  // },
+  {
+    id: 119,
+    name:"مفتاح السلطني (شعبة)",
+    url_audio: "https://server14.mp3quran.net/muftah_sultany/Rewayat_Sho-bah-A-n-Asim/",
+    img: "",
+    rewaya:"شعبة  عن عاصم"
+  },
+  {
+    id: 120,
+    name:"مفتاح السلطني (بن عامر)",
+    url_audio: "https://server14.mp3quran.net/muftah_sultany/Rewayat_Ibn-Thakwan-A-n-Ibn-Amer/",
+    img: "",
+    rewaya:"ابن ذكوان عن ابن عامر"
+  },
   {
     id: 121,
     name:"معيض الحارثي",
@@ -910,27 +910,27 @@ const Qura =[
     img: "",
     rewaya:"حفص عن عاصم"
   },
-  // {
-  //   id: 126,
-  //   name:"محمد عبدالكريم",
-  //   url_audio: "https://server12.mp3quran.net/m_krm/Rewayat-Warsh-A-n-Nafi-Men-Tariq-Abi-Baker-Alasbahani/",
-  //   img: "",
-  //   rewaya:"ورش عن نافع من طريق ابي بكر الاصبهاني"
-  // },
-  // {
-  //   id: 127,
-  //   name:"الفاتح محمد الزبير",
-  //   url_audio: "https://server6.mp3quran.net/fateh/",
-  //   img: "",
-  //   rewaya:"الدوري عن ابي عمرو"
-  // },
-  // {
-  //   id: 128,
-  //   name:"طارق عبدالغني دعوب",
-  //   url_audio: "https://server10.mp3quran.net/tareq/",
-  //   img: "",
-  //   rewaya:"قالون عن نافع"
-  // },
+  {
+    id: 126,
+    name:"محمد عبدالكريم (ورش)",
+    url_audio: "https://server12.mp3quran.net/m_krm/Rewayat-Warsh-A-n-Nafi-Men-Tariq-Abi-Baker-Alasbahani/",
+    img: "",
+    rewaya:"ورش عن نافع من طريق ابي بكر الاصبهاني"
+  },
+  {
+    id: 127,
+    name:"الفاتح محمد الزبير",
+    url_audio: "https://server6.mp3quran.net/fateh/",
+    img: "",
+    rewaya:"الدوري عن ابي عمرو"
+  },
+  {
+    id: 128,
+    name:"طارق عبدالغني دعوب (قالون)",
+    url_audio: "https://server10.mp3quran.net/tareq/",
+    img: "",
+    rewaya:"قالون عن نافع"
+  },
   {
     id: 129,
     name:"عبدالرحمن العوسي",
@@ -952,13 +952,13 @@ const Qura =[
     img: "",
     rewaya:"حفص عن عاصم"
   },
-  // {
-  //   id: 132,
-  //   name: "مروان العكري",
-  //   url_audio: "https://server16.mp3quran.net/m_akri/Rewayat-Qalon-A-n-Nafi/",
-  //   img: "",
-  //   rewaya:"قالون عن نافع"
-  // },
+  {
+    id: 132,
+    name: "مروان العكري (قالون)",
+    url_audio: "https://server16.mp3quran.net/m_akri/Rewayat-Qalon-A-n-Nafi/",
+    img: "",
+    rewaya:"قالون عن نافع"
+  },
   {
     id: 133,
     name: "احمد عيسى المعصراوي",
@@ -966,13 +966,13 @@ const Qura =[
     img: "",
     rewaya:"قراءة يعقوب الحضرمي بروايتي رويس وروح"
   },
-  // {
-  //   id: 134,
-  //   name: "إبراهيم كشيدان",
-  //   url_audio: "https://server16.mp3quran.net/i_kshidan/Rewayat-Qalon-A-n-Nafi/",
-  //   img: "",
-  //   rewaya:"قالون عن نافع"
-  // },
+  {
+    id: 134,
+    name: "إبراهيم كشيدان (قالون)",
+    url_audio: "https://server16.mp3quran.net/i_kshidan/Rewayat-Qalon-A-n-Nafi/",
+    img: "",
+    rewaya:"قالون عن نافع"
+  },
   {
     id: 135,
     name: "هاشم ابو دلال",
@@ -1022,13 +1022,13 @@ const Qura =[
     img: "",
     rewaya:"حفص عن عاصم"
   },
-  // {
-  //   id: 142,
-  //   name:"احمد ديبان",
-  //   url_audio: "https://server16.mp3quran.net/deban/Rewayat-Warsh-A-n-Nafi-Men-Tariq-Alazraq/",
-  //   img: "",
-  //   rewaya:"ورش عن نافع من طريق الازرق"
-  // },
+  {
+    id: 142,
+    name:"احمد ديبان (ورش)",
+    url_audio: "https://server16.mp3quran.net/deban/Rewayat-Warsh-A-n-Nafi-Men-Tariq-Alazraq/",
+    img: "",
+    rewaya:"ورش عن نافع من طريق الازرق"
+  },
   {
     id: 143,
     name: "احمد ديبان",
@@ -1108,7 +1108,7 @@ const Qura =[
   },
   {
     id: 154,
-    name: " ابراهيم جمال القرجاوي(السوسي عن أبي عمرو)",
+    name: " ابراهيم جمال القرجاوي(السوسي)",
     url_audio: "https://download.ourquraan.com/Ibrahim-Jamal-Alqerjawi-Susi/",
     img: "",
     rewaya:"السوسي عن أبي عمرو"

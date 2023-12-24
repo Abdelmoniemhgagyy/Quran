@@ -46,6 +46,7 @@ window.scroll({
                 <div  title="home" className='   text-center transition duration-150 '  >
                     <p className="text-sm p-1 font-[500]"> الشيخ : {localStorage.getItem("nameOfQauri")}</p>
                     <p className="text-sm p-1"> سورة : {nameOfSura} </p>
+                    <p className="text-sm p-1">رواية : {localStorage.getItem("rewaya")}</p>
                 </div> 
                 </div>
       </nav>
@@ -59,6 +60,8 @@ window.scroll({
               <p className='text-center text-white p-2 border-bottom cursor-pointer m-1  '>{item.name}</p>
       </div>  
       ))}
+
+
        {/* audio bar  */}
       <div className='fixed bottom-0 left-0 w-screen'>
           <AudioPlayer
