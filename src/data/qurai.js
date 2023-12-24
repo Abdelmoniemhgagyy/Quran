@@ -651,7 +651,7 @@ const Qura =[
   },
   {
       id: 98,
-      name:"مفتاح السلطني",
+      name:"مفتاح السلطني(أبي عمرو)",
       url_audio: "https://server14.mp3quran.net/muftah_sultany/Rewayat-Aldori-A-n-Abi-Amr/",
       img: "",
       rewaya:"الدوري عن ابي عمرو"
@@ -1012,8 +1012,43 @@ const Qura =[
     img: "",
     rewaya:"حفص عن عاصم"
   },
+  {
+      id: 151,
+      name:"مفتاح السلطني(ابن عامر)",
+      url_audio: "https://download.ourquraan.com/Muftah_Alsaltany_(ibn-zkwan)/",
+      img: "",
+      rewaya:"ابن ذكوان عن ابن عامر"
+  },
+  {
+      id: 152,
+      name:"مفتاح السلطني(الكسائي)",
+      url_audio: "https://download.ourquraan.com/Muftah_Alsaltany_(Dori-3n-kisaay)/",
+      img: "",
+      rewaya:"الدوري عن الكسائي"
+  },
+  {
+    id: 153,
+    name: " ابراهيم جمال القرجاوي",
+    url_audio: "https://download.ourquraan.com/Ibrahim-Jamal-Alqerjawi-Hafs-An-Assem/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  {
+    id: 154,
+    name: " ابراهيم جمال القرجاوي(السوسي عن أبي عمرو)",
+    url_audio: "https://download.ourquraan.com/Ibrahim-Jamal-Alqerjawi-Susi/",
+    img: "",
+    rewaya:"السوسي عن أبي عمرو"
+  },
+  {
+    id: 155,
+    name: "الفاتح محمد الزبير(الدوري)",
+    url_audio: "https://download.ourquraan.com/Alfateh-mohamed(Aldory-3n-abi%20amr)/",
+    img: "",
+    rewaya:"الدوري عن أبي عمرو "
+  },
   // {
-  //   id: 151,
+  //   id: 152,
   //   name: "",
   //   url_audio: "",
   //   img: "",
