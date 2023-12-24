@@ -100,7 +100,7 @@ const Qura =[
   },
   {
     id:15,
-    name:"يوسف نوح أحمد",
+    name:"يوسف نوح احمد",
     url_audio:"https://download.tvquran.com/download/tvQuran.com__Youssef-Nouh-Ahmed/",
     img:"" ,
 
@@ -842,14 +842,14 @@ const Qura =[
   //   name:"محمد عبدالكريم",
   //   url_audio: "https://server12.mp3quran.net/m_krm/Rewayat-Warsh-A-n-Nafi-Men-Tariq-Abi-Baker-Alasbahani/",
   //   img: "",
-  //   rewaya:"ورش عن نافع من طريق أبي بكر الأصبهاني"
+  //   rewaya:"ورش عن نافع من طريق ابي بكر الاصبهاني"
   // },
   // {
   //   id: 127,
   //   name:"الفاتح محمد الزبير",
   //   url_audio: "https://server6.mp3quran.net/fateh/",
   //   img: "",
-  //   rewaya:"الدوري عن أبي عمرو"
+  //   rewaya:"الدوري عن ابي عمرو"
   // },
   // {
   //   id: 128,
@@ -875,14 +875,147 @@ const Qura =[
   {
     id: 131,
     name: "احمد عيسى المعصراوي",
-    url_audio: "https://server16.mp3quran.net/a_maasaraawi/Rewayat-Hafs-A-n-Assem//",
+    url_audio: "https://server16.mp3quran.net/a_maasaraawi/Rewayat-Hafs-A-n-Assem/",
     img: "",
     rewaya:"حفص عن عاصم"
   },
   // {
   //   id: 132,
+  //   name: "مروان العكري",
+  //   url_audio: "https://server16.mp3quran.net/m_akri/Rewayat-Qalon-A-n-Nafi/",
+  //   img: "",
+  //   rewaya:"قالون عن نافع"
+  // },
+  {
+    id: 133,
+    name: "احمد عيسى المعصراوي",
+    url_audio: "https://server16.mp3quran.net/a_maasaraawi/Rewayat-Rawh-A-n-Yakoob-Alhadrami/",
+    img: "",
+    rewaya:"قراءة يعقوب الحضرمي بروايتي رويس وروح"
+  },
+  // {
+  //   id: 134,
+  //   name: "إبراهيم كشيدان",
+  //   url_audio: "https://server16.mp3quran.net/i_kshidan/Rewayat-Qalon-A-n-Nafi/",
+  //   img: "",
+  //   rewaya:"قالون عن نافع"
+  // },
+  {
+    id: 135,
+    name: "هاشم ابو دلال",
+    url_audio: "https://server16.mp3quran.net/h_abudalal/Rewayat-Hafs-A-n-Assem/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  {
+    id: 136,
+    name:"فؤاد الخامري",
+    url_audio: "https://server16.mp3quran.net/f_khamery/Rewayat-Hafs-A-n-Assem/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  {
+    id: 137,
+    name:"سيد احمد هاشمي",
+    url_audio: "https://server16.mp3quran.net/s_hashemi/Rewayat-Hafs-A-n-Assem/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  {
+    id: 138,
+    name:"خالد كريم محمدي",
+    url_audio: "https://server16.mp3quran.net/kh_mohammadi/Rewayat-Hafs-A-n-Assem/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  {
+    id: 139,
+    name: "مال الله عبدالرحمن الجابر",
+    url_audio: "https://server16.mp3quran.net/mal-allah_jaber/Rewayat-Hafs-A-n-Assem/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  {
+    id: 140,
+    name: "سلمان الصديق",
+    url_audio: "https://server16.mp3quran.net/s_sadeiq/Rewayat-Hafs-A-n-Assem/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  {
+    id: 141,
+    name: "صالح الشمراني",
+    url_audio: "https://server16.mp3quran.net/shamrani/Rewayat-Hafs-A-n-Assem/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  // {
+  //   id: 142,
+  //   name:"احمد ديبان",
+  //   url_audio: "https://server16.mp3quran.net/deban/Rewayat-Warsh-A-n-Nafi-Men-Tariq-Alazraq/",
+  //   img: "",
+  //   rewaya:"ورش عن نافع من طريق الازرق"
+  // },
+  {
+    id: 143,
+    name: "احمد ديبان",
+    url_audio: "https://server16.mp3quran.net/deban/Rewayat-Aldori-A-n-Abi-Amr/",
+    img: "",
+    rewaya:"الدوري عن ابي عمرو"
+  },
+  {
+    id: 144,
+    name: "عبدالله عبدل",
+    url_audio: "https://server16.mp3quran.net/a_abdl/Rewayat-Hafs-A-n-Assem/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  {
+    id: 145,
+    name: "احمد خليل شاهين",
+    url_audio: "https://server16.mp3quran.net/shaheen/Rewayat-Hafs-A-n-Assem/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  {
+    id: 146,
+    name: "ادريس أبكر",
+    url_audio: "https://server6.mp3quran.net/abkr/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  {
+    id: 147,
+    name: "صلاح البدير",
+    url_audio: "https://server6.mp3quran.net/s_bud/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  {
+    id: 148,
+    name: "عبد المحسن القاسم",
+    url_audio: "https://download.tvquran.com/download/TvQuran.com__Alqasim/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  {
+    id: 149,
+    name: "عبد الباري الثبيتي",
+    url_audio: "https://server6.mp3quran.net/thubti/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  {
+    id: 150,
+    name: "عبد الله عواد الجهني",
+    url_audio: "https://download.tvquran.com/download/TvQuran.com__Al-Johany/",
+    img: "",
+    rewaya:"حفص عن عاصم"
+  },
+  // {
+  //   id: 151,
   //   name: "",
-  //   url_audio: "/",
+  //   url_audio: "",
   //   img: "",
   //   rewaya:"حفص عن عاصم"
   // },
