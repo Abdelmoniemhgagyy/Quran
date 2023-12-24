@@ -4,13 +4,14 @@ const Qura =[
     name:"عبدالباسط عبدالصمد",
     url_audio:"https://download.tvquran.com/download/TvQuran.com__basit/",
     img:"",
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:2,
     name:" محمد صديق المنشاوي",
     url_audio:"https://server10.mp3quran.net/minsh/minh-old-with-echo/",
     img:"" ,
+    rewaya:"حفص عن عاصم"
 
   },
   {
@@ -18,6 +19,7 @@ const Qura =[
     name:" محمود خليل الحصري",
     url_audio:"https://download.tvquran.com/download/TvQuran.com__Al-Hussary/",
     img:"" ,
+    rewaya:"حفص عن عاصم"
 
   },
   {
@@ -25,6 +27,7 @@ const Qura =[
     name:" محمد رشاد الشريف",
     url_audio:"https://server10.mp3quran.net/rashad/",
     img: " ",
+    rewaya:"حفص عن عاصم"
 
   },
   {
@@ -32,6 +35,7 @@ const Qura =[
     name:"احمد خضر الطرابلسي",
     url_audio:"https://download.tvquran.com/download/recitations/4/107/",
     img:"" ,
+    rewaya:"حفص عن عاصم"
 
   },
 
@@ -40,6 +44,7 @@ const Qura =[
     name:"محمد ايوب",
     url_audio:"https://download.tvquran.com/download/TvQuran.com__Ayyub/",
     img:"" ,
+    rewaya:"حفص عن عاصم"
 
   },
   {
@@ -47,6 +52,7 @@ const Qura =[
     name:"يحيى حوا",
     url_audio:"https://server12.mp3quran.net/yahya/",
     img:"" ,
+    rewaya:""
 
   },
   {
@@ -54,6 +60,7 @@ const Qura =[
     name:"فارس عباد",
     url_audio:"https://download.tvquran.com/download/TvQuran.com__Fares.Abbad/",
     img:"" ,
+    rewaya:"حفص عن عاصم"
 
   },
   {
@@ -61,13 +68,14 @@ const Qura =[
     name:"ناصر القطامي",
     url_audio:"https://download.tvquran.com/download/recitations/90/25/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   // {
   //   id:10,
   //   name:"محمد رفعت ",
   //   url_audio:"https://download.tvquran.com/download/recitations/314/221/",
   //   img:"" ,
+  // rewaya:"حفص عن عاصم"
 
   // },
   {
@@ -75,6 +83,8 @@ const Qura =[
     name:"ماهر المعيقلي",
     url_audio:"https://download.tvquran.com/download/TvQuran.com__Maher/",
     img:"" ,
+    rewaya:"حفص عن عاصم"
+
 
   },
   {
@@ -82,35 +92,35 @@ const Qura =[
     name:"بندر بليلة",
     url_audio:"https://download.tvquran.com/download/recitations/220/173/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:13,
     name:"خالد الجليل",
     url_audio:"https://download.tvquran.com/download/recitations/21/252/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:14,
     name:"ياسر الدوسري",
     url_audio:"https://download.tvquran.com/download/TvQuran.com__Yasser/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:15,
     name:"يوسف نوح احمد",
     url_audio:"https://download.tvquran.com/download/tvQuran.com__Youssef-Nouh-Ahmed/",
     img:"" ,
-
+    rewaya:" "
   },
   {
     id:16,
     name:"ياسر القرشي",
     url_audio:"https://download.tvquran.com/download/recitations/328/250/",
     img:"" ,
-
+    rewaya:""
   },
   {
     id:17,
@@ -125,83 +135,85 @@ const Qura =[
     name:"ياسر سرحان الديب",
     url_audio:"https://download.tvquran.com/download/recitations/368/285/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:19,
     name:"حسن صالح",
     url_audio:"https://ia903208.us.archive.org/21/items/hassan_mohaed_saleh/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:20,
     name:"عبدالله كامل",
     url_audio:"https://server16.mp3quran.net/kamel/Rewayat-Hafs-A-n-Assem/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:21,
     name:"صالح بو خاطر",
     url_audio:"https://server8.mp3quran.net/bu_khtr/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:22,
     name:"وديع اليمني",
     url_audio:"https://download.tvquran.com/download/recitations/184/218/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:23,
     name:"هاني الرفاعي",
     url_audio:"https://download.tvquran.com/download/TvQuran.com__Hani/",
     img:"" ,
-
+    rewaya:" "
   },
   {
     id:24,
     name:"إبراهيم الجبرين",
     url_audio:"https://server6.mp3quran.net/jbreen/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:25,
     name:"إبراهيم الاخضر",
     url_audio:"https://server6.mp3quran.net/akdr/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:26,
     name:"عبدالرحمن الشحات ",
     url_audio:"https://server16.mp3quran.net/a_alshahhat/Rewayat-Hafs-A-n-Assem/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:27,
     name:"احمد الحواشي",
     url_audio:"https://server11.mp3quran.net/hawashi/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:28,
     name:"احمد صابر",
     url_audio:"https://server8.mp3quran.net/saber/",
     img:"" ,
-
+    rewaya:"حفص عن عاصم"
   },
   {
     id:29,
     name:"احمد نعينع",
     url_audio:"https://server11.mp3quran.net/ahmad_nu/",
     img:"" ,
+    rewaya:"حفص عن عاصم"
+
 
   },
   {
@@ -209,30 +221,36 @@ const Qura =[
     name:"اكرم العلاقمي",
     url_audio:"https://server9.mp3quran.net/akrm/",
     img:"" ,
+    rewaya:" "
+
   },
   {
     id:31,
     name:"الحسيني العزازي",
     url_audio:"https://server8.mp3quran.net/3zazi/",
     img:"" ,
+    rewaya:" "
   },
   {
     id:32,
     name:"الزين محمد احمد",
     url_audio:"https://server9.mp3quran.net/alzain/",
     img:"" ,
+    rewaya:" "
   },
   {
     id:33,
     name:"القارئ ياسين",
     url_audio:"https://server11.mp3quran.net/qari/",
     img:"" ,
+    rewaya:" "
   },
   {
     id:34,
     name:"العشري عمران",
     url_audio:"https://server9.mp3quran.net/omran/",
     img:"" ,
+    rewaya:" "
   },
   {
     id:35,
@@ -246,13 +264,14 @@ const Qura =[
     name:"توفيق الصايغ",
     url_audio:"https://server6.mp3quran.net/twfeeq/",
     img:"" ,
-
+    rewaya:" "
   },
   {
     id:37,
     name:"جمال شاكر عبدالله",
     url_audio:"https://server6.mp3quran.net/jamal/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -260,6 +279,7 @@ const Qura =[
     name:"خالد القحطاني",
     url_audio:"https://server10.mp3quran.net/qht/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -267,6 +287,7 @@ const Qura =[
     name:"خالد عبدالكافي",
     url_audio:"https://server11.mp3quran.net/kafi/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -274,6 +295,7 @@ const Qura =[
     name:"خليفة الطنيجي",
     url_audio:"https://server12.mp3quran.net/tnjy/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -281,6 +303,7 @@ const Qura =[
     name:"سعد الغامدي",
     url_audio:"https://server7.mp3quran.net/s_gmd/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -288,6 +311,7 @@ const Qura =[
     name:"سعود الشريم",
     url_audio:"https://server7.mp3quran.net/shur/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -295,13 +319,14 @@ const Qura =[
     name:"سهل ياسين",
     url_audio:"https://server6.mp3quran.net/shl/",
     img:"" ,
-
+    rewaya:" "
   },
   {
     id:44,
     name:"زكي داغستاني",
     url_audio:"https://server9.mp3quran.net/zaki/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -309,6 +334,7 @@ const Qura =[
     name:"سامي الحسن",
     url_audio:"https://server12.mp3quran.net/sayed/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -316,6 +342,7 @@ const Qura =[
     name:"شيرزاد عبدالرحمن طاهر",
     url_audio:"https://server12.mp3quran.net/taher/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -323,6 +350,7 @@ const Qura =[
     name:"صابر عبدالحكم",
     url_audio:"https://server12.mp3quran.net/hkm/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -330,6 +358,7 @@ const Qura =[
     name:"صالح الهبدان",
     url_audio:"https://server6.mp3quran.net/habdan/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -337,6 +366,7 @@ const Qura =[
     name:"صالح البدير ",
     url_audio:"https://server6.mp3quran.net/s_bud/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -344,6 +374,7 @@ const Qura =[
     name:"صلاح الهاشم",
     url_audio:"https://server12.mp3quran.net/salah_hashim_m/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -351,6 +382,7 @@ const Qura =[
     name:"صلاح بو خاطر",
     url_audio:"https://server8.mp3quran.net/bu_khtr/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -358,6 +390,7 @@ const Qura =[
     name:"عادل ريان",
     url_audio:"https://server8.mp3quran.net/ryan/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -365,13 +398,14 @@ const Qura =[
     name:"عبدالبارئ الثبيتي",
     url_audio:"https://server6.mp3quran.net/thubti/",
     img:"" ,
-
+    rewaya:" "
   },
   {
     id:54,
     name:"عبدالبارئ محمد",
     url_audio:"https://server12.mp3quran.net/bari/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -379,6 +413,7 @@ const Qura =[
     name:"عبدالرحمن السديس",
     url_audio:"https://server11.mp3quran.net/sds/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -386,6 +421,7 @@ const Qura =[
     name:"عبدالعزيز الاحمد",
     url_audio:"https://server11.mp3quran.net/a_ahmed/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -393,6 +429,7 @@ const Qura =[
     name:"عبدالعزيز الزهراني",
     url_audio:"https://server9.mp3quran.net/zahrani/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -400,6 +437,7 @@ const Qura =[
     name:"عبدالله المطرود",
     url_audio:"https://server8.mp3quran.net/mtrod/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -407,6 +445,7 @@ const Qura =[
     name:"عبدالله بصفر",
     url_audio:"https://server6.mp3quran.net/bsfr/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -414,6 +453,7 @@ const Qura =[
     name:"عبدالله خياط",
     url_audio:"https://server12.mp3quran.net/kyat/",
     img:"" ,
+    rewaya:" "
 
   },
   {
@@ -421,6 +461,7 @@ const Qura =[
     name:"عبدالله  عواد الجهني",
     url_audio:"https://server13.mp3quran.net/jhn/",
     img:"" ,
+    rewaya:" "
 
   },
  {
@@ -428,6 +469,7 @@ const Qura =[
     name: "عبدالله غيلان",
     url_audio: "https://server8.mp3quran.net/gulan/",
     img: "",
+    rewaya:" "
 },
   {
     id: 64,
@@ -448,36 +490,42 @@ const Qura =[
     name: "عبدالمحسن الحارثي",
     url_audio: "https://server6.mp3quran.net/mohsin_harthi/",
     img: "",
+    rewaya:" "
 },
 {
     id: 66,
     name: "عبدالمحسن القاسم",
     url_audio: "https://server8.mp3quran.net/qasm/",
     img: "",
+    rewaya:" "
 },
 {
     id: 67,
     name: "عبدالمحسن العبيكان",
     url_audio: "https://server12.mp3quran.net/obk/",
     img: "",
+    rewaya:" "
 },
 {
     id: 68,
     name: "عبدالهادي احمد كناكري",
     url_audio: "https://server6.mp3quran.net/kanakeri/",
     img: "",
+    rewaya:" "
 },
 {
     id: 69,
     name: "عبدالودود حنيف",
     url_audio: "https://server8.mp3quran.net/wdod/",
     img: "",
+    rewaya:" "
 },
 {
     id: 70,
     name: "علي الحذيفي",
     url_audio: "https://server9.mp3quran.net/hthfi/",
     img: "",
+    rewaya:" "
 },
 // {
 //     id: 71,
@@ -491,18 +539,21 @@ const Qura =[
     name: "علي جابر ",
     url_audio: "https://server11.mp3quran.net/a_jbr/",
     img: "",
+    rewaya:" "
 },
 {
     id: 73,
     name: "علي حجاج السويسي",
     url_audio: "https://server9.mp3quran.net/hajjaj/",
     img: "",
+    rewaya:" "
 },
 {
     id: 74,
     name: "عماد زهير حافظ",
     url_audio: "https://server6.mp3quran.net/hafz/",
     img: "",
+    rewaya:" "
 },
 {
     id: 75,
@@ -516,24 +567,28 @@ const Qura =[
     name: "نبيل الرفاعي",
     url_audio: "https://server9.mp3quran.net/nabil/",
     img: "",
+    rewaya:" "
 },
 {
     id: 77,
     name: "نعمة الحسان",
     url_audio: "https://server8.mp3quran.net/namh/",
     img: "",
+    rewaya:" "
 },
 {
   id: 78,
   name: "محمد الطبلاوي",
   url_audio: "https://server12.mp3quran.net/tblawi/",
   img: "",
+  rewaya:" "
 },
 {
     id: 79,
     name: "يوسف الشويعي",
     url_audio: "https://server9.mp3quran.net/yousef/",
     img: "",
+    rewaya:" "
 },
 
 {
@@ -541,54 +596,64 @@ const Qura =[
     name: "ايمن السويد",
     url_audio: "https://download.tvquran.com/download/recitations/346/270/",
     img: "",
+    rewaya:"حفص عن عاصم"
 },
   {
       id: 81,
       name: "محمود علي البنا",
       url_audio: "https://server8.mp3quran.net/bna/",
       img: "",
+      rewaya:"حفص عن عاصم"
+      
   },
   {
       id: 82,
       name: "محمد جبريل",
       url_audio: "https://server8.mp3quran.net/jbrl/",
       img: "",
+      rewaya:" "
   },
   {
       id: 83,
       name: "هتلان بن علي الهتلان",
       url_audio: "https://ia800707.us.archive.org/26/items/Al-Quran_riwayat_Hafs_tilawat_Hatlan_Alhatlan/",
       img: "",
+      rewaya:" "
   },
   {
       id: 84,
       name: "  ابراهيم سليم الدرملي",
       url_audio: "https://ia800401.us.archive.org/4/items/Al-Quran_Hafs_tilawat_Ibrahim_Adderemli/",
       img: "",
+      rewaya:" "
   },
   {
       id: 85,
       name: "محمد اللحيدان",
       url_audio: "https://server8.mp3quran.net/lhdan/",
       img: "",
+      rewaya:" "
   },
   {
       id: 86,
       name: "محمد صالح عالم",
       url_audio: "https://server12.mp3quran.net/shah/",
       img: "",
+      rewaya:" "
     },
     {
         id: 88,
         name: "محمد عبدالكريم",
         url_audio: "https://server12.mp3quran.net/m_krm/",
         img: "",
+        rewaya:" "
     },
   {
       id: 87,
       name: "محمد صديق المنشاوي (مجود)",
       url_audio: "https://download.tvquran.com/download/TvQuran.com__Al-Minshawi-Mojawad/",
       img: "",
+      rewaya:" "
   },
   
   // {
@@ -610,6 +675,7 @@ const Qura =[
       name: " محمود خليل الحصري (مجود)",
       url_audio: "https://server13.mp3quran.net/husr/Almusshaf-Al-Mojawwad/",
       img: "",
+      rewaya:" "
   },
   {
       id: 92,
@@ -624,30 +690,35 @@ const Qura =[
       name: "محمود علي البنا (مجود)",
       url_audio: "https://server8.mp3quran.net/bna/Almusshaf-Al-Mojawwad//",
       img: "",
+      rewaya:" "
   },
   {
       id: 94,
       name:"مشاري العفاسي",
       url_audio: "https://server8.mp3quran.net/afs/",
       img: "",
+      rewaya:" "
   },
   {
       id: 95,
       name: "مصطفى إسماعيل",
       url_audio: "https://server8.mp3quran.net/mustafa/",
       img: "",
+      rewaya:" "
   },
   {
       id: 96,
       name:"مصطفى اللاهوني",
       url_audio: "https://server6.mp3quran.net/lahoni/",
       img: "",
+      rewaya:" "
   },
   {
       id: 97,
       name:"مصطفى رعد العزاوي",
       url_audio: "https://server8.mp3quran.net/ra3ad/",
       img: "",
+      rewaya:" "
   },
   {
       id: 98,
@@ -661,12 +732,14 @@ const Qura =[
       name: "ماهر المعيقلي (مجود)", 
       url_audio: "https://server12.mp3quran.net/maher/Almusshaf-Al-Mojawwad/",
       img: "",
+      rewaya:" "
   },
   {
       id: 100,
       name:"محمد سايد (ورش)",
       url_audio: "https://server16.mp3quran.net/m_sayed/Rewayat-Warsh-A-n-Nafi/",
       img: "",
+      rewaya:" ورش"
   },
 
 // {
