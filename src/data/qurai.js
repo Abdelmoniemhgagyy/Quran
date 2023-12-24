@@ -431,7 +431,7 @@ const Qura =[
 },
   {
     id: 64,
-    name: "عبدالرشيد صوفي",
+    name: " عبدالرشيد صوفي(حمزة)",
     url_audio: "https://server16.mp3quran.net/soufi/Rewayat-Khalaf-A-n-Hamzah/",
     img: "",
     rewaya:"خلف عن حمزة"
